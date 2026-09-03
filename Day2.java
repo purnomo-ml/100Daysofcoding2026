@@ -3,9 +3,8 @@ public class day2 {
 
         System.out.println("=== BIODATA DIRI ===");
 
-        System.out.println("Nama   : ");
-        System.out.println("Ma'ruf");
-
+        System.out.println("Nama   : ma'ruf ");
+    
         System.out.print("Tinggi : ");
         System.out.println("167 cm");
 
