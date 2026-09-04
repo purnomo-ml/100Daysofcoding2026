@@ -1,18 +1,30 @@
 public class day3 {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
+    // \n = pindah ke baris baru
+System.out.println("Halo\nMa'ruf");
 
-        System.out.println("=== BIODATA ===\n");
+// \t = membuat jarak/tab
+System.out.println("Nama\t: Ma'ruf");
 
-        System.out.println("Nama\t: Ma'ruf");
-        System.out.println("Umur\t: 19");
-        System.out.println("Prodi\t: Informatika");
+// \b = backspace
+System.out.println("Ma'ruf\b");
 
-        System.out.println("\n=== APA KABAR DAY 3 ===");
-        System.out.println("\"masih aman\"");
+// \r = kembali ke awal baris
+System.out.println("Ma'ruf\rHalo");
 
-        System.out.println("\n=== FOLDER ===");
-        System.out.println("C:\\Users\\Java");
+// \f = form feed
+System.out.println("Ma'ruf\f");
 
-        System.out.println("\n===selesai mi===");
-    }
+// \' = tanda kutip satu
+System.out.println("Nama: Ma\'ruf");
+
+// \" = tanda kutip dua
+System.out.println("Nama: \"Ma'ruf\"");
+
+// \\ = menampilkan backslash
+System.out.println("Nama: Ma'ruf\\");
+
+// ! = tanda seru, langsung ditulis
+System.out.println("Ma'ruf!");
 }
+ }
